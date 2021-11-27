@@ -11,3 +11,6 @@ Run the demo script (requires web cam).
 ```sh
 python AP_System.py
 ```
+
+## References
+[1] T. Y. Yang, Y. H. Huang, Y. Y. Lin, and Y. Y. Hsiu, P. C. Chuang, “Ssr-net: A compact soft stagewise regression network for age estimation,” International Joint Conference on Artificial Intelligence (IJCAI), pp. 1078–1084, 2018.
