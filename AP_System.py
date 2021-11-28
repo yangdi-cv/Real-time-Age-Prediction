@@ -1,4 +1,4 @@
-# import the necessary packages
+# python AP_System.py
 from imutils.video import VideoStream
 import numpy as np
 import imutils
@@ -142,16 +142,6 @@ while True:
         cv2.putText(frame, text, (startX, y),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 3)
 
-        # Frames Per Second (FPS)
-        if (time.time() - start_time) != 0:
-            fps = counter / (time.time() - start_time)
-            fpslist.append(fps)
-            fps = np.mean(fpslist)
-            cv2.putText(frame, "FPS {0}".format(fps), (400, 50),
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 3)
-            # print("FPS: ", counter / (time.time() - start_time))
-            counter = 0
-            start_time = time.time()
 
         # show the output frame
     cv2.imshow("Frame", frame)
