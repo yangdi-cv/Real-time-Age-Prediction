@@ -8,7 +8,7 @@ Tested on:
 ## Usage
 
 ### Use trained model for demo
-Run the demo script (requires webcam).
+Run the demo script.
 ```sh
 python AP_System.py
 ```
