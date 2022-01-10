@@ -1,3 +1,7 @@
+# Train the age prediction model with your own dataset
+Fork this project and train the model:
+https://github.com/Ericdiii/Real-time-Age-Prediction/tree/train
+
 # Deploy the real-time demo on Jetson Nano 2GB
 
 ## 1. Jetson Nano Image Writing
@@ -44,7 +48,7 @@ sudo apt install libswscale-dev
 sudo python3 setup.py install
 ```
 ## 3. Real-time System Implementation
-1. Download the code and pre-trained model from: https://github.com/Ericdiii/Real-time-Age-Prediction </br>
+1. Download the code from: https://github.com/Ericdiii/Real-time-Age-Prediction </br>
 This project applies multiple third-party libraries, including `numpy`, `imutils`, `time`, `cv2`, `PIL`, `torch`, and `torchvision`. </br>
 The libraries of numpy, time, cv2, and PIL have already been installed in the official Jetson Nano image file. </br>
 Therefore, we only need to install `imutils` additionally:
@@ -55,6 +59,4 @@ sudo pip install imutils
 ```
 python AP_System.py
 ```
-## 4. Train the age prediction model with your own dataset
-Fork this project and try:
-https://github.com/Ericdiii/Real-time-Age-Prediction/tree/train
+
