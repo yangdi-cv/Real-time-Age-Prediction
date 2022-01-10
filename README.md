@@ -2,7 +2,10 @@
 
 ## Dataset
 
-The age is ann
+The age is annotated in the file name as "age.#.jpg"
+<img src="https://github.com/Ericdiii/DogsVsCats-PyTorch-CNN/blob/main/TestOutput1.png" height="280"/> <img src="https://github.com/Ericdiii/DogsVsCats-PyTorch-CNN/blob/main/TestOutput2.png" height="280"/> <img src="https://github.com/Ericdiii/DogsVsCats-PyTorch-CNN/blob/main/TestOutput1.png" height="280"/> <img src="https://github.com/Ericdiii/DogsVsCats-PyTorch-CNN/blob/main/TestOutput2.png" height="280"/> 
+
+
 
 Create new folder to save your own data
 * data
