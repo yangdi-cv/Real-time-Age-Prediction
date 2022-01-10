@@ -2,11 +2,11 @@
 
 ## 1. Jetson Nano Image Writing
 1. Image File Download </br>
-Select and download the image file of Jetson Nano 2GB version from NVIDIA official website: https://developer.nvidia.com/embedded/downloads </br>
+Select and download the image file of Jetson Nano 2GB version from [NVIDIA official website](https://developer.nvidia.com/embedded/downloads) </br>
 <img src="https://github.com/Ericdiii/Real-time-Age-Prediction/blob/demo/image/1.png?raw=true" height="200"/>
 
 2. Image Writing </br>
-Etcher is a tool for writing the image to the SD card. We can download it from: https://www.balena.io/etcher/ </br>
+[Etcher](https://www.balena.io/etcher/) is a tool for writing the image to the SD card. </br>
 <img src="https://github.com/Ericdiii/Real-time-Age-Prediction/blob/demo/image/2.png?raw=true" height="120"/>
 
 ## 2. Deeper Learning Framework Construction
@@ -29,13 +29,13 @@ sudo pip3 install mpi4py
 sudo pip3 install Cython
 ```
 - **Install torch 1.6.0** </br>
-Download the torch 1.6.0 whl file: https://nvidia.box.com/shared/static/9eptse6jyly1ggt9axbja2yrmj6pbarc.whl </br>
+Download the [torch 1.6.0](https://nvidia.box.com/shared/static/9eptse6jyly1ggt9axbja2yrmj6pbarc.whl) whl file </br>
 Type the following command in the download file path
 ```
 sudo pip3 install torch-1.6.0-cp36-cp36m-linux_aarch64.whl
 ```
 - **Install torchvision 0.7.0** </br>
-Download the torchvision 0.7.0: https://github.com/pytorch/vision/tree/release/0.7 </br>
+Download the [torchvision 0.7.0](https://github.com/pytorch/vision/tree/release/0.7) </br>
 Unzip the package, and type the following command in the path of “setup.py”
 ```
 sudo apt install libavcodec-dev
@@ -51,7 +51,7 @@ Therefore, we only need to install `imutils` additionally:
 ```
 sudo pip install imutils
 ```
-2. Demonstration (webcam)
+2. Demonstration (with webcam)
 ```
 python AP_System.py
 ```
